@@ -1,4 +1,4 @@
-variable "elasticache" {}
+
 variable "env" {}
 variable "engine" {}
 variable "engine_version" {}
