@@ -1,4 +1,4 @@
-/*
+
 
 resource "aws_elasticache_cluster" "main" {
   cluster_id           = "${var.env}-${var.name}-elasticache"
@@ -20,4 +20,3 @@ resource "aws_elasticache_subnet_group" "default" {
   subnet_ids = var.subnets
 }
 
-*/
