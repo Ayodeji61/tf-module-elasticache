@@ -1,3 +1,5 @@
+/*
+
 resource "aws_elasticache_cluster" "main" {
   cluster_id           = "${var.env}-${var.name}-elasticache"
   engine               = var.engine
@@ -17,3 +19,5 @@ resource "aws_elasticache_subnet_group" "default" {
   name       = "${var.env}-${var.name}-elasticache"
   subnet_ids = var.subnets
 }
+
+*/
